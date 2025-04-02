@@ -569,6 +569,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sky/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    libldacBT_abr \
+    libldacBT_enc \
     vendor.qti.diaghal-V1-ndk \
     vendor.qti.hardware.fm-V1-ndk \
     eglSubDriverAndroid \
@@ -1286,6 +1288,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.qspmhal@1.0-impl \
+    liblhdc \
+    liblhdcBT_enc \
     bm2n31 \
     bm2n32 \
     bm2n33 \
