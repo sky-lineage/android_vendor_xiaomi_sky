@@ -1141,6 +1141,9 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     sensors.touch \
     libasphere \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     libaudiopreprocessing \
     libbundlewrapper \
     libdownmix \
