@@ -6,5 +6,5 @@
 
 INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 9);
 
-INSERT INTO qcril_emergency_source_mcc_table VALUES('450','112','','');
-INSERT INTO qcril_emergency_source_mcc_table VALUES('450','119','','');
+INSERT OR IGNORE INTO qcril_emergency_source_mcc_table VALUES('450','112','','');
+INSERT OR IGNORE INTO qcril_emergency_source_mcc_table VALUES('450','119','','');
